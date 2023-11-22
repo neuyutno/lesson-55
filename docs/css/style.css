@@ -1,0 +1,53 @@
+.square-text {
+    margin: 0;
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin-right: -50%;
+}
+
+.square_conteiner {
+    display: block;
+    width: 1200px;
+    height: 1000px;
+    border: 5px dashed rgb(128, 51, 0);
+    margin: 20px auto;
+}
+
+.square-green {
+    width: 250px;
+    height: 250px;
+    border-radius: 3px;
+    transform-origin: -80% 320%;
+    transform: rotate(20deg);
+}
+
+.green {
+    background: rgb(189,218,128);
+    background: radial-gradient(circle, rgba(189,218,128,1) 0%, rgba(41,116,27,1) 100%);
+}
+
+.square-red {
+    width: 250px;
+    height: 250px;
+    border-radius: 3px;
+    transform: translate(496px, 491px);
+}
+
+.red {
+    background: rgb(218, 143, 128);
+    background: radial-gradient(circle, rgb(218, 134, 128) 0%, rgb(116, 27, 27) 100%);
+}
+
+.square-blue {
+    width: 250px;
+    height: 250px;
+    border-radius: 3px;
+    transform: scale(2) translate(409px, -188px);
+}
+
+.blue {
+    background: rgb(141, 128, 218);
+    background: radial-gradient(circle, rgb(21, 21, 237) 0%, rgb(54, 27, 116) 100%);
+}
